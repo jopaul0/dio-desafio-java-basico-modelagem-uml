@@ -2,7 +2,7 @@
 
 Este projeto consiste na modelagem e implementação em Java das funcionalidades icônicas do lançamento do primeiro iPhone (2007), conforme o desafio proposto pela DIO (Digital Innovation One). O objetivo é demonstrar habilidades em **Programação Orientada a Objetos (POO)**, especificamente **Interfaces** e **Herança Múltipla** de tipos.
 
-## 📱 Contexto do Desafio
+## Contexto do Desafio
 Baseado na apresentação histórica de Steve Jobs, o dispositivo foi modelado para atuar em três frentes principais:
 1. **Reprodutor Musical**: Um iPod com controles touch.
 2. **Aparelho Telefônico**: Um celular revolucionário.
@@ -10,15 +10,14 @@ Baseado na apresentação histórica de Steve Jobs, o dispositivo foi modelado p
 
 ---
 
-## 📐 Diagrama UML
+## Diagrama UML
 Abaixo está a representação visual da estrutura de classes e interfaces do projeto.
 
-![Diagrama UML do iPhone](./caminho-para-sua-imagem.png)
-> *Substitua o caminho acima pelo local onde você salvou o print do seu diagrama.*
+![Diagrama UML do iPhone](./diagramauml.png)
 
 ---
 
-## 🚀 Estrutura do Código
+## Estrutura do Código
 
 O projeto foi organizado em pacotes para seguir as boas práticas de desenvolvimento:
 
