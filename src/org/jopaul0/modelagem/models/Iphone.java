@@ -21,6 +21,7 @@ public class Iphone implements NavegadorInternet, AparelhoTelefonico, Reprodutor
 
 
     // Sobrescritas dos metodos das interfaces
+    // Metodos do NavegadorInternet
     @Override
     public void exibirPagina(String url) {
         System.out.println("Exibindo página: " + url);
@@ -40,7 +41,7 @@ public class Iphone implements NavegadorInternet, AparelhoTelefonico, Reprodutor
         System.out.println("Recarregando dados da página atual...");
     }
 
-
+    // Metodos do AparelhoTelefonico
     @Override
     public void ligar(String numero) {
         System.out.println("Chamando: " + numero);
@@ -56,7 +57,7 @@ public class Iphone implements NavegadorInternet, AparelhoTelefonico, Reprodutor
         System.out.println("Ouvindo mensagens de voz.");
     }
 
-
+    // Metodos do ReprodutorMusical
     @Override
     public void selecionarMusica(String musica) {
         this.musicaAtual = musica;
